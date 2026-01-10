@@ -57,7 +57,7 @@ AUTOTHROTTLE_TARGET_CONCURRENCY = 2.0
 
 
 FEEDS = {
-    '/workspaces/newscraper/app/hourly_news.jsonl':{
+    '/app/data/hourly_news.jsonl':{
         'format': 'jsonlines',
         'encoding': 'utf8',
             'overwrite': True, 
