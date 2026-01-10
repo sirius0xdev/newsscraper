@@ -1,0 +1,16 @@
+# Environments
+venv/
+env/
+.venv/
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+
+# Secrets
+.env
+
+# Scrapy temporary files
+.scrapy/
+*.jsonl
