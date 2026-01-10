@@ -1,0 +1,257 @@
+# --- NORTH AMERICA ---
+# USA
+https://www.npr.org
+https://www.pbs.org/newshour
+https://www.usatoday.com
+https://www.cbsnews.com
+https://www.nbcnews.com
+
+# Canada
+https://www.cbc.ca/news
+https://www.ctvnews.ca
+https://globalnews.ca
+https://nationalpost.com
+https://www.thestar.com
+
+# Mexico
+https://www.eluniversal.com.mx
+https://www.milenio.com
+https://www.jornada.com.mx
+https://www.excelsior.com.mx
+https://aristeguinoticias.com
+
+# --- SOUTH AMERICA ---
+# Brazil
+https://g1.globo.com
+https://www.uol.com.br
+https://agenciabrasil.ebc.com.br
+https://www.metropoles.com
+https://www.terra.com.br/noticias
+
+# Argentina
+https://www.infobae.com
+https://www.clarin.com
+https://www.lanacion.com.ar
+https://www.pagina12.com.ar
+https://www.cronista.com
+
+# Colombia
+https://www.eltiempo.com
+https://www.elespectador.com
+https://www.semana.com
+https://www.bluradio.com
+https://www.rcnradio.com
+
+# --- EUROPE ---
+# United Kingdom
+https://www.bbc.com/news
+https://www.theguardian.com/uk
+https://news.sky.com
+https://www.independent.co.uk
+https://metro.co.uk
+
+# France
+https://www.france24.com/en
+https://www.lefigaro.fr
+https://www.20minutes.fr
+https://www.francetvinfo.fr
+https://www.lemonde.fr
+
+# Germany
+https://www.dw.com/en
+https://www.tagesschau.de
+https://www.spiegel.de
+https://www.zeit.de
+https://www.bild.de
+
+# Spain
+https://elpais.com
+https://www.elmundo.es
+https://www.rtve.es/noticias
+https://www.20minutos.es
+https://www.elconfidencial.com
+
+# Italy
+https://www.ansa.it
+https://www.corriere.it
+https://www.repubblica.it
+https://www.lastampa.it
+https://tg24.sky.it
+
+# Russia (State & Independent mix)
+https://tass.com
+https://www.interfax.ru
+https://www.rt.com
+https://www.themoscowtimes.com
+https://meduza.io/en
+
+# --- ASIA ---
+# China
+https://www.xinhuanet.com/english
+https://www.chinadaily.com.cn
+https://www.globaltimes.cn
+https://www.cgtn.com
+https://www.scmp.com
+
+# India
+https://www.ndtv.com
+https://timesofindia.indiatimes.com
+https://indianexpress.com
+https://www.thehindu.com
+https://www.hindustantimes.com
+
+# Japan
+https://www3.nhk.or.jp/nhkworld
+https://www.japantimes.co.jp
+https://www.asahi.com/ajw
+https://mainichi.jp/english
+https://english.kyodonews.net
+
+# South Korea
+https://en.yna.co.kr
+https://www.koreaherald.com
+https://koreajoongangdaily.joins.com
+https://www.donga.com/en
+https://english.chosun.com
+
+# --- AFRICA ---
+# South Africa
+https://www.news24.com
+https://www.iol.co.za
+https://www.dailymaverick.co.za
+https://www.sabcnews.com
+https://www.timeslive.co.za
+
+# Nigeria
+https://www.vanguardngr.com
+https://punchng.com
+https://dailypost.ng
+https://saharareporters.com
+https://thenationonlineng.net
+
+# --- MIDDLE EAST ---
+# General Region
+https://www.aljazeera.com
+https://english.alarabiya.net
+https://www.timesofisrael.com
+https://www.tehrantimes.com
+https://www.middleeasteye.net
+
+# --- OCEANIA ---
+# Australia
+https://www.abc.net.au/news
+https://www.news.com.au
+https://www.9news.com.au
+https://www.smh.com.au
+https://www.theage.com.au
+# --- USA: MAJOR CITIES & LOCAL ---
+https://www.latimes.com
+https://www.chicagotribune.com
+https://www.sfchronicle.com
+https://www.bostonglobe.com
+https://www.seattletimes.com
+https://www.houstonchronicle.com
+https://www.inquirer.com
+https://www.denverpost.com
+https://www.miamiherald.com
+https://www.dallasnews.com
+https://www.startribune.com
+https://www.detroitnews.com
+https://www.ajc.com
+https://www.nydailynews.com
+https://nypost.com
+https://www.mercurynews.com
+https://www.baltimoresun.com
+https://www.oregonlive.com
+https://www.cleveland.com
+https://www.tampabay.com
+
+# --- EUROPE: LOCAL & INDEPENDENT ---
+https://www.manchestereveningnews.co.uk
+https://www.scotsman.com
+https://www.belfasttelegraph.co.uk
+https://www.irishtimes.com
+https://www.berliner-zeitung.de
+https://www.leparisien.fr
+https://www.corriere.it
+https://www.elperiodico.com
+https://kyivindependent.com
+https://www.pravda.com.ua/en
+https://balkaninsight.com
+https://www.ekathimerini.com
+https://www.swissinfo.ch
+https://www.thelocal.se
+https://www.thelocal.fr
+https://www.thelocal.de
+https://www.novinite.com
+https://www.romania-insider.com
+https://hungarytoday.hu
+https://polandin.com
+
+# --- MIDDLE EAST & CONFLICT ZONES ---
+https://www.haaretz.com
+https://www.jpost.com
+https://www.timesofisrael.com
+https://www.rudaw.net/english
+https://www.kurdistan24.net/en
+https://www.middleeasteye.net
+https://www.al-monitor.com
+https://www.dailysabah.com
+https://www.duvarenglish.com
+https://english.aawsat.com
+https://www.arabnews.com
+https://www.thenationalnews.com
+https://www.jordantimes.com
+https://www.naharnet.com
+https://www.tehrantimes.com
+
+# --- ASIA: HOTSPOTS & LOCAL ---
+https://www.taipeitimes.com
+https://focustaiwan.tw
+https://hongkongfp.com
+https://www.bangkokpost.com
+https://www.thejakartapost.com
+https://www.straitstimes.com
+https://www.khmertimeskh.com
+https://www.irrawaddy.com
+https://www.myanmarnow.org/en
+https://www.rappler.com
+https://www.philstar.com
+https://english.hani.co.kr
+https://www.japantoday.com
+https://www.caixinglobal.com
+https://thediplomat.com
+
+# --- LATIN AMERICA & AFRICA: LOCAL ---
+https://buenosairesherald.com
+https://riotimesonline.com
+https://mercopress.com
+https://www.elmostrador.cl
+https://www.jornada.com.mx
+https://www.theeastafrican.co.ke
+https://allafrica.com
+https://www.premiumtimesng.com
+https://www.dailytrust.com
+https://www.newtimes.co.rw
+https://www.herald.co.zw
+https://www.namibian.com.na
+https://www.graphic.com.gh
+https://www.thecitizen.co.tz
+https://www.monitor.co.ug
+
+# --- ALTERNATIVE, INVESTIGATIVE & "FRINGE" ---
+https://theintercept.com
+https://www.propublica.org
+https://www.democracynow.org
+https://reason.com
+https://www.motherjones.com
+https://www.vox.com
+https://slate.com
+https://www.axios.com
+https://www.politico.com
+https://www.vice.com
+https://www.bellingcat.com
+https://www.project-syndicate.org
+https://cryptonews.com
+https://www.coindesk.com
+https://techcrunch.com

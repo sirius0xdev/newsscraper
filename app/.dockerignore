@@ -1,0 +1,26 @@
+# Secrets and Config
+.env
+*.key
+*.pem
+
+# Python artifacts
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# Scrapy/Project specific
+hourly_news.jsonl
+downloaded_pages/
+.scrapy/
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
