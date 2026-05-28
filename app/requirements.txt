@@ -38,4 +38,5 @@ urllib3==2.6.3
 user-agents==2.2.0
 w3lib==2.3.1
 zope.interface==8.1.1
-psycopg2-binary==2.9.11 
+psycopg2-binary==2.9.11
+feedparser==6.0.11
