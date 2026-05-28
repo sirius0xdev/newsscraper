@@ -110,10 +110,6 @@ class NewsSpider(scrapy.Spider):
         )
 
     def parse(self, response):
-
-        output_dir = Path("downloaded_pages")
-        output_dir.mkdir(parents=True, exist_ok=True)
-
         cleaned_html = remove_tags_with_content(
             response.text,
             which_ones=('script', 'style', 'nav', 'footer', 'header', 'aside')
@@ -131,11 +127,7 @@ class NewsSpider(scrapy.Spider):
                                 //body
                                 ''').get()
 
-
-        pure_text = remove_tags(article_html)
-
-
-
+        pure_text = remove_tags(article_html) if article_html else ""
 
         final_url = response.url
         domain = urlparse(final_url).netloc.replace('www.', '')
