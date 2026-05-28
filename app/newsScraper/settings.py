@@ -1,22 +1,21 @@
-import os 
-from dotenv import load_dotenv 
-load_dotenv() 
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 PROXY_USER = os.getenv('PROXY_USER')
 PROXY_PASS = os.getenv('PROXY_PASS')
 PROXY_ENDPOINT = os.getenv('PROXY_ENDPOINT')
 
 def get_proxy_url():
-    if not PROXY_ENDPOINT: 
-        return None 
+    if not PROXY_ENDPOINT:
+        return None
     endpoint = PROXY_ENDPOINT.replace('http://', '').replace('https://','')
+    if PROXY_USER and PROXY_PASS:
+        return f"http://{PROXY_USER}:***@{endpoint}"
+    else:
+        return f"http://{endpoint}"
 
-if PROXY_USER and PROXY_PAS:
-    return f"http://{PROXY_USER}:{PROXY_PASS}@{endpoint}"
-else:
-    return f"http://{endpoint}"
-
-PROXY_URL = get_proxy_url 
+PROXY_URL = get_proxy_url()
 
 BOT_NAME = "newsScraper"
 
@@ -32,27 +31,26 @@ DEFAULT_REQUEST_HEADERS = {
    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
    'Accept-Language': 'en-US,en;q=0.5',
    'Accept-Encoding': 'gzip, deflate, br',
-   'DNT': '1', 
+   'DNT': '1',
    'Connection': 'keep-alive',
    'Upgrade-Insecure-Requests': '1',
 }
 
-# Obey robots.txt rules
-ROBOTSTXT_OBEY = True 
+# Don't obey robots.txt — many news sites block crawlers
+ROBOTSTXT_OBEY = False
 
 # Concurrency and throttling settings
 CONCURRENT_REQUESTS = 50
-CONCURRENT_REQUESTS_PER_DOMAIN = 2 
-DOWNLOAD_DELAY = 1 
+CONCURRENT_REQUESTS_PER_DOMAIN = 2
+DOWNLOAD_DELAY = 0.2
 REACTOR_THREADPOOL_MAXSIZE = 100
 LOG_LEVEL = 'INFO'
-RETRY_ENABLED = True 
+RETRY_ENABLED = True
 DOWNLOAD_TIMEOUT = 10
 AJAXCRAWL_ENABLED = False
-AUTO_THROTTLE_ENABLED = True   
+AUTO_THROTTLE_ENABLED = True
 AUTOTHROTTLE_ENABLED = True
-AUTOTHROTTLE_TARGET_CONCURRENCY = 2.0
-
+AUTOTHROTTLE_TARGET_CONCURRENCY = 10.0
 
 
 
@@ -60,7 +58,7 @@ FEEDS = {
     '/app/data/hourly_news.jsonl':{
         'format': 'jsonlines',
         'encoding': 'utf8',
-            'overwrite': True, 
+            'overwrite': True,
     }
 }
 FEED_EXPORT_ENCODING = "utf-8"
